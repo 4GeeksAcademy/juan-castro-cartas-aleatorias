@@ -40,7 +40,7 @@ body {
   grid-row: 3;
   align-self: end;
   justify-self: end;
-  rotate: 180deg;
+  
 }
 .card-body h1 {
   font-size: 7rem;
@@ -48,6 +48,10 @@ body {
   text-align: center;
 }
 
-.col.align-self-end h5 {
-  rotate: 180deg;
-} 
+
+.card-body h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
