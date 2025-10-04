@@ -13,3 +13,41 @@ body {
   height: 500px;
   border-radius: 20px;
 }
+
+.card-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 400px;
+}
+
+.col.align-self-start {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: start;
+  justify-self: start;
+}
+
+.col.align-self-center {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: center;
+  justify-self: center;
+}
+
+.col.align-self-end {
+  grid-column: 3;
+  grid-row: 3;
+  align-self: end;
+  justify-self: end;
+  rotate: 180deg;
+}
+.card-body h1 {
+  font-size: 7rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.col.align-self-end h5 {
+  rotate: 180deg;
+} 

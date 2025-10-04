@@ -30,3 +30,5 @@ window.onload = function() {
     pinta2.style.color = "black"
   } 
 };
+
+
